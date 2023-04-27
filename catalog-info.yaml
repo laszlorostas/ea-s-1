@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: example-center
+  description: Everything related to center
+  tags:
+    - portal
+spec:
+  owner: team-a
