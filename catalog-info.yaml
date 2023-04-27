@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: System
+kind: Location
 metadata:
-  name: example-center
-  description: Everything related to center
-  tags:
-    - portal
+  name: example-apis
+  description: A collection of all Backstage example APIs
 spec:
-  owner: user:guest
+  targets:
+    - ./core-domain.yaml
+    - ./example-center-system.yaml
