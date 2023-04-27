@@ -6,4 +6,4 @@ metadata:
   tags:
     - portal
 spec:
-  owner: team-a
+  owner: user:guest
