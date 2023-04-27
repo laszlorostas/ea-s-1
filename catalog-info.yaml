@@ -5,5 +5,4 @@ metadata:
   description: A collection of all Backstage example APIs
 spec:
   targets:
-    - ./core-domain.yaml
     - ./example-center-system.yaml
